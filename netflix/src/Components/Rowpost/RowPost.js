@@ -15,7 +15,7 @@ function RowPost(props) {
 
   useEffect(() => {
     axios.get(props.url).then((response)=>{
-      console.log(response.data)
+      
    
     
       setmovies(response.data.results.sort(function(a,b){
@@ -38,29 +38,7 @@ function RowPost(props) {
   
    
   },[])
-  // const opts = {
-  //   height: '390',
-  //   width: '100%',
-  //   playerVars: {
-  //               https://developers.google.com/youtube/player_parameters
-  //     autoplay:1,
-  //     origin: (`https://www.youtube.com/watch?v=${urlId.key}`),
-  
-      
  
-    
-    
-   
-
-  
-   
-    
-      
-   
-  //   },
-
-   
-  // };
 
   
 

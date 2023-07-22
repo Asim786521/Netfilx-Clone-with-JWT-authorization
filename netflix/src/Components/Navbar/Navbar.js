@@ -14,7 +14,7 @@ export default function Navbar(props) {
 	};
 
   
-//const [name,SetName]=useState('')
+ 
   
   return (
     <div className="Navbar">
